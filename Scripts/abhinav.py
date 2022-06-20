@@ -101,7 +101,19 @@ keys = ['Ten', 'Twenty', 'Thirty']
 values = [10, 20, 30]
 print(key,":", value)
 
+Dict = {'Name': 'abhinav','age': '28', 'sex': 'male'}
+print(Dict)
+Dict = {v: k for k, v in Dict.items()}
+print(Dict)
+Dict(Name)
 
+
+my_page = {'name':['x','y','z'],'Age':['1','2','3','4','5']}
+print(my_page)
+word=zip(my_page['name'],my_page['Age'])
+print(word)
+for i in word:
+    print(i)
 
 
 
