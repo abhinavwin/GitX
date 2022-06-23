@@ -10,24 +10,24 @@
 #for i in range (1,11,3):
     #print(i)
 
-#def print_your_progress_thrice():
-    #print("abhinav")
+def print_your_progress_thrice():
+    print("abhinav")
 
 
-#Dict = {'Name': 'abhinav','age': '28', 'sex': 'male'}
-#print(Dict)
-#Dict = {v: k for k, v in Dict.items()}
-#print(Dict)
-#Dict(Name)
+Dict = {'Name': 'abhinav','age': '28', 'sex': 'male'}
+print(Dict)
+Dict = {v: k for k, v in Dict.items()}
+print(Dict)
+Dict(Name)
 
 
-#my_dict = {'name':["Raju","abhinav","akhil","vinay","x","y","z"],'Age':["28","25","30","64","42","45","25"]}
-#print(my_dict)
-#print(my_dict["name"])
-#quip=zip(my_dict["name"],my_dict["Age"])
-#print(quip)
-#for i in quip:
-    #print(i)
+my_dict = {'name':["Raju","abhinav","akhil","vinay","x","y","z"],'Age':["28","25","30","64","42","45","25"]}
+print(my_dict)
+print(my_dict["name"])
+quip=zip(my_dict["name"],my_dict["Age"])
+print(quip)
+for i in quip:
+    print(i)
 
 
 
