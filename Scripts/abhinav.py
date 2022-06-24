@@ -2,13 +2,13 @@
 #print("{0}*{1}={2}",{5,index,5*index})
 
 
-#index=1
-#for index in range (1,11):
-    #print("{0}*{1}={2}".format(index,5,index*5))
-    #print(index)
+index=1
+for index in range (1,11):
+    print("{0}*{1}={2}".format(index,5,index*5))
+    print(index)
 
-#for i in range (1,11,3):
-    #print(i)
+for i in range (1,11,3):
+    print(i)
 
 def print_your_progress_thrice():
     print("abhinav")
