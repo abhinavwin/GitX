@@ -115,9 +115,19 @@ print(word)
 for i in word:
     print(i)
 
+my_page = {'name':['x','y','z'],'Age':['1','2','3','4','5']}
+print(my_page)
+word=zip(my_page['name'],my_page['Age'])
+print(word)
+for i in word:
+    print(i)
 
-
-
+my_page = {'name':['x','y','z'],'Age':['1','2','3','4','5']}
+print(my_page)
+word=zip(my_page['name'],my_page['Age'])
+print(word)
+for i in word:
+    print(i)
 
 
 finalexcel= {**topics, **topics2}
