@@ -2,13 +2,13 @@
 #print("{0}*{1}={2}",{5,index,5*index})
 
 
-#index=1
-#for index in range (1,11):
-    #print("{0}*{1}={2}".format(index,5,index*5))
-    #print(index)
+index=1
+for index in range (1,11):
+    print("{0}*{1}={2}".format(index,5,index*5))
+    print(index)
 
-#for i in range (1,11,3):
-    #print(i)
+for i in range (1,11,3):
+    print(i)
 
 #def print_your_progress_thrice():
     #print("abhinav")
@@ -108,10 +108,41 @@ print(Dict)
 Dict(Name)
 
 
+<<<<<<< HEAD
+=======
+my_page = {'name':['x','y','z'],'Age':['1','2','3','4','5']}
+print(my_page)
+word=zip(my_page['name'],my_page['Age'])
+print(word)
+for i in word:
+    print(i)
+
+my_page = {'name':['x','y','z'],'Age':['1','2','3','4','5']}
+print(my_page)
+word=zip(my_page['name'],my_page['Age'])
+print(word)
+for i in word:
+    print(i)
+>>>>>>> f168633256d17f11637f50d4ce6f118893430d85
+
+my_page = {'name':['x','y','z'],'Age':['1','2','3','4','5']}
+print(my_page)
+word=zip(my_page['name'],my_page['Age'])
+print(word)
+for i in word:
+    print(i)
 
 
 
+topics1 = {'name' : 'abhinav', "gender" : "male"}
+topics2 = {'age' : "28" , "colour" : "fare"}
+topics2.update(topics1)
+print(topics2)
 
+topics1 = {'name' : 'abhinav', "gender" : "male"}
+topics2 = {'age' : "28" , "colour" : "fare"}
+topics2.update(topics1)
+print(topics2)
 
 finalexcel= {**topics, **topics2}
 print(finalexcel)
